@@ -78,3 +78,13 @@ git lfs track "*.dylib"
 git add .gitattributes
 git commit -m "Sử dụng Git LFS cho tệp lớn"
 git push origin main
+
+*.hdr
+*.dylib
+Library/
+git add .gitignore
+git commit -m "Bỏ qua các tệp lớn"
+git push origin main
+git rm --cached đường_dẫn_đến_tệp_lớn
+git commit -m "Xóa tệp lớn để có thể push"
+git push origin main
