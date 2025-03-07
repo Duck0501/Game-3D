@@ -71,3 +71,10 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+git lfs install
+git lfs track "*.hdr"
+git lfs track "*.dylib"
+git add .gitattributes
+git commit -m "Sử dụng Git LFS cho tệp lớn"
+git push origin main
