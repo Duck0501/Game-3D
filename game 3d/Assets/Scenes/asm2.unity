@@ -8056,7 +8056,7 @@ PrefabInstance:
     - target: {fileID: 2702049275686899326, guid: e7072acbabcf0084783e4ee5550516b7, type: 3}
       propertyPath: bulletPrefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4482590419978697830, guid: 71ddf0580bc70544bacd4fd784020c1c, type: 3}
     - target: {fileID: 2702049275686899326, guid: e7072acbabcf0084783e4ee5550516b7, type: 3}
       propertyPath: chaseDistance
       value: 10

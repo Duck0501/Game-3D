@@ -161,8 +161,7 @@ public class Player : MonoBehaviour
             slider.value--;
             if (slider.value <= 0)
             {
-                
-                //SceneManager.LoadScene("Game Over");
+                SceneManager.LoadScene("Game Over");
             }
 
             CameraShake cameraShake = FindObjectOfType<CameraShake>();
